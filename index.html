@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Abeer Alkhmese — AI Engineer &amp; Software Engineer</title>
+<meta name="description" content="Abeer Alkhmese — AI Engineer, Software Engineer and Business Analyst based in Saudi Arabia. Building AI-driven solutions end to end: agentic AI workflows, n8n automation, React and .NET." />
+<meta name="author" content="Abeer Alkhmese" />
+
+<!-- Social preview -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Abeer Alkhmese — AI Engineer &amp; Software Engineer" />
+<meta property="og:description" content="AI Engineer with a Software Engineering and Business Analysis foundation. Agentic AI workflows, n8n automation, React and .NET." />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2310002b'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' font-weight='700' fill='%23c77dff' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a class="nav__brand" href="#hero">
+      <span class="nav__mark">A</span>
+      <span class="nav__name">Abeer Alkhmese</span>
+    </a>
+
+    <nav class="nav__links" id="navLinks" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn--small btn--primary nav__cv" href="assets/Abeer-Alkhmese-AI-Engineer-CV.pdf" target="_blank" rel="noopener">Download CV</a>
+    </nav>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero__glow" aria-hidden="true"></div>
+  <div class="container hero__inner">
+    <div class="hero__text">
+      <h1 class="hero__title reveal">
+        Hi, I'm <span class="grad">Abeer Alkhmese</span>
+      </h1>
+      <p class="hero__role reveal">
+        <span id="typed" class="typed"></span><span class="caret" aria-hidden="true"></span>
+      </p>
+      <p class="hero__desc reveal">
+        I build AI-driven solutions end to end — from gathering business requirements to shipping working
+        software. Daily hands-on with agentic AI tools, workflow automation, and full-stack development.
+      </p>
+
+      <div class="hero__actions reveal">
+        <a class="btn btn--primary" href="#projects">View my work</a>
+        <a class="btn btn--ghost" href="assets/Abeer-Alkhmese-AI-Engineer-CV.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2"/></svg>
+          Download CV
+        </a>
+      </div>
+
+      <ul class="hero__social reveal" aria-label="Social links">
+        <li><a href="https://github.com/Abeer-21" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" class="icon icon--fill" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 00.5 12a11.5 11.5 0 007.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.06-.72.08-.7.08-.7 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.4-1.28.74-1.57-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 015.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.06.78 2.15v3.19c0 .31.21.67.8.56A11.5 11.5 0 0023.5 12 11.5 11.5 0 0012 .5z"/></svg>
+        </a></li>
+        <li><a href="https://www.linkedin.com/in/abeer-yehia-6a9a6a299/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" class="icon icon--fill" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05a3.75 3.75 0 013.38-1.86c3.61 0 4.27 2.38 4.27 5.47v6.28zM5.34 7.43a2.07 2.07 0 110-4.13 2.07 2.07 0 010 4.13zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+        </a></li>
+        <li><a href="mailto:Abeer.alkhmese@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="M3 7l9 6 9-6"/></svg>
+        </a></li>
+        <li><a href="tel:+966553406830" aria-label="Phone">
+          <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M6.6 3h3l1.5 4.5-2.1 1.4a12.5 12.5 0 006.1 6.1l1.4-2.1L21 14.4v3a2 2 0 01-2.2 2A17 17 0 014.6 5.2 2 2 0 016.6 3z"/></svg>
+        </a></li>
+      </ul>
+    </div>
+
+    <aside class="hero__card reveal" aria-label="Quick facts">
+      <div class="card card--glass">
+        <div class="idcard__top">
+          <div class="idcard__avatar" aria-hidden="true">AA</div>
+          <div>
+            <p class="idcard__name">Abeer Alkhmese</p>
+            <p class="idcard__meta">AI Engineer · Software Engineer</p>
+          </div>
+        </div>
+        <dl class="idcard__list">
+          <div><dt>Location</dt><dd>Saudi Arabia</dd></div>
+          <div><dt>Degree</dt><dd>BSc Software Engineering<br /><span class="dim">Second Class Honors, 2024</span></dd></div>
+          <div><dt>Certified</dt><dd>AWS Cloud Practitioner</dd></div>
+          <div><dt>Languages</dt><dd>Arabic (native) · English</dd></div>
+        </dl>
+        <div class="idcard__tags">
+          <span class="chip">Claude Code</span>
+          <span class="chip">n8n</span>
+          <span class="chip">React</span>
+          <span class="chip">C# / .NET</span>
+          <span class="chip">AWS</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="container">
+    <header class="section__head reveal">
+      <span class="section__num">01</span>
+      <h2 class="section__title">About me</h2>
+    </header>
+
+    <div class="about__text reveal">
+      <p>
+        I'm an <strong>AI Engineer</strong> with a Software Engineering and Business Analysis foundation,
+        specializing in building AI-driven solutions end to end — from gathering business requirements to
+        shipping working software.
+      </p>
+      <p>
+        My day-to-day is hands-on with <strong>agentic AI development tools</strong> (Claude Code, Cursor,
+        Antigravity) and <strong>AI workflow automation with n8n</strong>, using prompt engineering to
+        accelerate delivery and raise code quality. Because I came into AI through business analysis, I care
+        as much about the requirement behind the feature as about the code that implements it.
+      </p>
+      <p>
+        I'm <strong>AWS Certified Cloud Practitioner</strong>, and currently pursuing Anthropic's
+        <strong>Claude Certified Architect — Foundations (CCA-F)</strong> and
+        <strong>AWS Solutions Architect — Associate</strong>.
+      </p>
+    </div>
+
+    <ul class="stats reveal">
+      <li class="stat">
+        <span class="stat__num" data-count="4" data-suffix="+">0</span>
+        <span class="stat__label">Years building software</span>
+      </li>
+      <li class="stat">
+        <span class="stat__num" data-count="6">0</span>
+        <span class="stat__label">Certifications earned &amp; in progress</span>
+      </li>
+      <li class="stat">
+        <span class="stat__num" data-count="2">0</span>
+        <span class="stat__label">Awards received</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section section--alt" id="skills">
+  <div class="container">
+    <header class="section__head reveal">
+      <span class="section__num">02</span>
+      <h2 class="section__title">Core skills</h2>
+      <p class="section__sub">The toolkit I reach for, grouped by what I use it to do.</p>
+    </header>
+
+    <div class="grid grid--3">
+      <article class="card reveal">
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon"><path d="M12 3l1.8 4.6L18.5 9l-4.7 1.4L12 15l-1.8-4.6L5.5 9l4.7-1.4L12 3z"/><path d="M18 15l.9 2.3 2.3.7-2.3.7L18 21l-.9-2.3-2.3-.7 2.3-.7L18 15z"/></svg>
+        </div>
+        <h3 class="card__title">AI Engineering</h3>
+        <p class="card__body">Designing and shipping AI-assisted systems, from the prompt layer to the architecture around it.</p>
+        <ul class="taglist">
+          <li>Prompt engineering</li><li>Agentic AI workflows</li><li>Claude Code</li><li>Cursor</li>
+          <li>Antigravity</li><li>LLM-assisted development</li><li>AI solution architecture</li>
+          <li>Tool design &amp; MCP</li><li>Context management</li>
+        </ul>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon"><path d="M7 7H5a3 3 0 000 6h2"/><path d="M17 17h2a3 3 0 000-6h-2"/><path d="M8 10h8"/><path d="M8 14h8"/></svg>
+        </div>
+        <h3 class="card__title">Automation &amp; Integration</h3>
+        <p class="card__body">Removing manual steps by wiring services together and letting workflows run themselves.</p>
+        <ul class="taglist">
+          <li>n8n workflow automation</li><li>REST API design</li><li>Twilio</li><li>OTO</li>
+          <li>Swagger / OpenAPI</li><li>Process automation</li>
+        </ul>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon"><path d="M9 8l-4 4 4 4"/><path d="M15 8l4 4-4 4"/></svg>
+        </div>
+        <h3 class="card__title">Software Development</h3>
+        <p class="card__body">Full-stack delivery across .NET back ends and modern React front ends.</p>
+        <ul class="taglist">
+          <li>C# / .NET</li><li>JavaScript</li><li>React</li><li>Material UI</li>
+          <li>PostgreSQL</li><li>JWT authentication</li><li>Axios</li><li>Git / GitHub</li><li>Figma</li>
+        </ul>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon"><path d="M7 18a4 4 0 01-.6-7.96A5.5 5.5 0 0117.6 9.4 3.8 3.8 0 0117 18H7z"/></svg>
+        </div>
+        <h3 class="card__title">Cloud (AWS)</h3>
+        <p class="card__body">Cloud foundations for deploying and supporting the systems I build.</p>
+        <ul class="taglist">
+          <li>AWS Certified Cloud Practitioner</li><li>Solutions Architect — Associate (in progress)</li>
+          <li>Cloud fundamentals</li>
+        </ul>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon"><path d="M4 19V5"/><path d="M4 17h16"/><path d="M8 17V9"/><path d="M13 17v-5"/><path d="M18 17V7"/></svg>
+        </div>
+        <h3 class="card__title">Business Analysis &amp; Delivery</h3>
+        <p class="card__body">Turning a stakeholder conversation into a specification a team can actually build.</p>
+        <ul class="taglist">
+          <li>Requirements gathering</li><li>Use-case definition</li><li>Functional &amp; technical specs</li>
+          <li>Agile / Scrum</li><li>Cross-functional collaboration</li>
+        </ul>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" class="icon"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a15 15 0 010 18a15 15 0 010-18z"/></svg>
+        </div>
+        <h3 class="card__title">Languages</h3>
+        <p class="card__body">Comfortable running requirements sessions and technical work in both languages.</p>
+        <ul class="taglist">
+          <li>Arabic — native</li><li>English — professional</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section" id="experience">
+  <div class="container">
+    <header class="section__head reveal">
+      <span class="section__num">03</span>
+      <h2 class="section__title">Experience</h2>
+    </header>
+
+    <ol class="timeline">
+      <li class="tl reveal">
+        <div class="tl__dot" aria-hidden="true"></div>
+        <div class="tl__card card">
+          <div class="tl__head">
+            <div>
+              <h3 class="tl__role">Business Analyst &amp; AI Developer</h3>
+              <p class="tl__org">Grenoble Partners</p>
+            </div>
+            <span class="badge badge--live">Jan 2025 — Present</span>
+          </div>
+          <ul class="bullets">
+            <li>Gathered and analyzed business requirements across cross-functional teams, translating them into functional and technical specifications aligned with AI-driven initiatives.</li>
+            <li>Drove development with agentic AI tools — Claude Code, Cursor and Antigravity — applying prompt engineering to generate precise code and speed up deployment.</li>
+            <li>Built automated business workflows with n8n, connecting APIs and services including Twilio and OTO to eliminate manual processes.</li>
+            <li>Developed intuitive frontend interfaces using React and Material UI, and supported API and backend integration on AWS cloud foundations.</li>
+            <li>Improved code readability and maintainability through refactoring; enhanced site SEO and indexing with Rank Math.</li>
+          </ul>
+          <ul class="taglist taglist--sm">
+            <li>Claude Code</li><li>n8n</li><li>React</li><li>Material UI</li><li>REST APIs</li><li>AWS</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl reveal">
+        <div class="tl__dot" aria-hidden="true"></div>
+        <div class="tl__card card">
+          <div class="tl__head">
+            <div>
+              <h3 class="tl__role">Software Developer (Trainee)</h3>
+              <p class="tl__org">Saudi Digital Academy — C# Bootcamp</p>
+            </div>
+            <span class="badge">Aug 2024 — Nov 2024</span>
+          </div>
+          <ul class="bullets">
+            <li>Developed server-side applications using C# and .NET with PostgreSQL and Swagger.</li>
+            <li>Built responsive interfaces with React and Material UI; integrated frontend and backend with JWT authentication and Axios.</li>
+            <li>Named <strong>Champion of the Week</strong> for performance in the bootcamp (Sep 2024).</li>
+          </ul>
+          <ul class="taglist taglist--sm">
+            <li>C# / .NET</li><li>PostgreSQL</li><li>Swagger</li><li>React</li><li>JWT</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl reveal">
+        <div class="tl__dot" aria-hidden="true"></div>
+        <div class="tl__card card">
+          <div class="tl__head">
+            <div>
+              <h3 class="tl__role">Web Developer — 450-hour Training</h3>
+              <p class="tl__org">Abaad Platform</p>
+            </div>
+            <span class="badge">Dec 2023 — May 2024</span>
+          </div>
+          <ul class="bullets">
+            <li>Built dynamic React components, managed routing, and designed UIs using Figma and Material UI.</li>
+            <li>Optimized React components for performance; collaborated in team projects using Git branching and code integration.</li>
+          </ul>
+          <ul class="taglist taglist--sm">
+            <li>React</li><li>Figma</li><li>Material UI</li><li>Git</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl reveal">
+        <div class="tl__dot" aria-hidden="true"></div>
+        <div class="tl__card card">
+          <div class="tl__head">
+            <div>
+              <h3 class="tl__role">Web Developer</h3>
+              <p class="tl__org">Software Engineering Club — University of Jeddah</p>
+            </div>
+            <span class="badge">Sep 2023 — Dec 2023</span>
+          </div>
+          <ul class="bullets">
+            <li>Contributed to club web projects and publications — team received the <strong>“Best Department in Publications”</strong> award (Feb 2024).</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section section--alt" id="projects">
+  <div class="container">
+    <header class="section__head reveal">
+      <span class="section__num">04</span>
+      <h2 class="section__title">Projects</h2>
+      <p class="section__sub">Selected work — open-source repositories on GitHub plus professional projects delivered at work.</p>
+    </header>
+
+    <div class="filters reveal" role="group" aria-label="Filter projects">
+      <button class="filter is-active" data-filter="all">All</button>
+      <button class="filter" data-filter="ai">AI &amp; Automation</button>
+      <button class="filter" data-filter="web">Web</button>
+      <button class="filter" data-filter="csharp">C# / .NET</button>
+    </div>
+
+    <div class="grid grid--3" id="projectGrid">
+
+      <article class="card project reveal" data-cat="web">
+        <div class="project__top">
+          <svg viewBox="0 0 24 24" class="icon project__glyph" aria-hidden="true"><path d="M3 10.5L12 4l9 6.5V20a1 1 0 01-1 1h-5v-6H10v6H4a1 1 0 01-1-1v-9.5z"/></svg>
+          <span class="badge badge--soft">Graduation Project</span>
+        </div>
+        <h3 class="card__title">Emmar</h3>
+        <p class="card__body">
+          My university graduation project — a React web platform with a client-facing area and an authenticated
+          dashboard. Built with Firebase for authentication and data, Material UI for the interface, Formik and
+          Yup for validated multi-field forms, and React Router for protected client-side routing.
+        </p>
+        <ul class="taglist taglist--sm">
+          <li>React</li><li>Firebase</li><li>Material UI</li><li>Formik + Yup</li><li>React Router</li>
+        </ul>
+        <div class="project__links">
+          <a class="link" href="https://github.com/Abeer-21/Emmar" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" class="icon icon--fill icon--xs" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 00.5 12a11.5 11.5 0 007.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.06-.72.08-.7.08-.7 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.4-1.28.74-1.57-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 015.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.06.78 2.15v3.19c0 .31.21.67.8.56A11.5 11.5 0 0023.5 12 11.5 11.5 0 0012 .5z"/></svg>
+            View on GitHub
+          </a>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="web">
+        <div class="project__top">
+          <svg viewBox="0 0 24 24" class="icon project__glyph" aria-hidden="true"><path d="M4 21V9l8-5 8 5v12"/><path d="M9 21v-6h6v6"/></svg>
+          <span class="badge badge--soft">React · CRUD</span>
+        </div>
+        <h3 class="card__title">React Real Estate App</h3>
+        <p class="card__body">
+          A property-listing application where users can browse, create, edit and delete listings. Property cards
+          are rendered dynamically from data, forms are validated on input, pages are wired with React Router
+          including protected routes for authenticated users, and the listing state persists across reloads via
+          localStorage.
+        </p>
+        <ul class="taglist taglist--sm">
+          <li>React</li><li>Vite</li><li>React Router</li><li>Form validation</li><li>localStorage</li>
+        </ul>
+        <div class="project__links">
+          <a class="link" href="https://github.com/Abeer-21/react-real-estate-app" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" class="icon icon--fill icon--xs" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 00.5 12a11.5 11.5 0 007.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.06-.72.08-.7.08-.7 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.4-1.28.74-1.57-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 015.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.06.78 2.15v3.19c0 .31.21.67.8.56A11.5 11.5 0 0023.5 12 11.5 11.5 0 0012 .5z"/></svg>
+            View on GitHub
+          </a>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="web">
+        <div class="project__top">
+          <svg viewBox="0 0 24 24" class="icon project__glyph" aria-hidden="true"><path d="M4 7l2 2 4-4"/><path d="M4 17l2 2 4-4"/><path d="M13 8h7"/><path d="M13 18h7"/></svg>
+          <span class="badge badge--soft">Vanilla JS</span>
+        </div>
+        <h3 class="card__title">JavaScript To-Do List</h3>
+        <p class="card__body">
+          A task manager built with plain HTML, CSS and JavaScript — no framework. Tasks can be created, edited,
+          deleted and toggled complete; a search bar filters them using a <em>debounce</em> so rapid typing doesn't
+          trigger unnecessary re-renders, and each action raises a user notification.
+        </p>
+        <ul class="taglist taglist--sm">
+          <li>JavaScript</li><li>HTML</li><li>CSS</li><li>Debounce</li><li>DOM events</li>
+        </ul>
+        <div class="project__links">
+          <a class="link" href="https://github.com/Abeer-21/JS-todolist-app" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" class="icon icon--fill icon--xs" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 00.5 12a11.5 11.5 0 007.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.06-.72.08-.7.08-.7 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.4-1.28.74-1.57-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 015.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.06.78 2.15v3.19c0 .31.21.67.8.56A11.5 11.5 0 0023.5 12 11.5 11.5 0 0012 .5z"/></svg>
+            View on GitHub
+          </a>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="csharp">
+        <div class="project__top">
+          <svg viewBox="0 0 24 24" class="icon project__glyph" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18"/><path d="M7 14h4"/></svg>
+          <span class="badge badge--soft">C# · OOP</span>
+        </div>
+        <h3 class="card__title">Bank Management System</h3>
+        <p class="card__body">
+          A console banking system in C# written to exercise object-oriented design: accounts and customers
+          modelled as classes with encapsulated state, and operations such as deposits, withdrawals and balance
+          enquiries handled through their behaviour rather than raw data manipulation.
+        </p>
+        <ul class="taglist taglist--sm">
+          <li>C#</li><li>.NET</li><li>OOP</li><li>Console app</li>
+        </ul>
+        <div class="project__links">
+          <a class="link" href="https://github.com/Abeer-21/bank-managment-system" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" class="icon icon--fill icon--xs" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 00.5 12a11.5 11.5 0 007.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.06-.72.08-.7.08-.7 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.4-1.28.74-1.57-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 015.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.06.78 2.15v3.19c0 .31.21.67.8.56A11.5 11.5 0 0023.5 12 11.5 11.5 0 0012 .5z"/></svg>
+            View on GitHub
+          </a>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="csharp">
+        <div class="project__top">
+          <svg viewBox="0 0 24 24" class="icon project__glyph" aria-hidden="true"><path d="M4 5.5A1.5 1.5 0 015.5 4H11v16H5.5A1.5 1.5 0 014 18.5v-13z"/><path d="M20 5.5A1.5 1.5 0 0018.5 4H13v16h5.5a1.5 1.5 0 001.5-1.5v-13z"/></svg>
+          <span class="badge badge--soft">C# · LINQ</span>
+        </div>
+        <h3 class="card__title">Library Management System</h3>
+        <p class="card__body">
+          A library system in C# that manages books, members and borrowing records. Data is modelled with
+          <em>records</em> as immutable types, stored in lists, and queried with <em>LINQ</em> — searching books by
+          title, author or genre, finding members by name, and filtering borrow records by member or date.
+        </p>
+        <ul class="taglist taglist--sm">
+          <li>C#</li><li>LINQ</li><li>Records</li><li>Collections</li>
+        </ul>
+        <div class="project__links">
+          <a class="link" href="https://github.com/Abeer-21/contact-management-system" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" class="icon icon--fill icon--xs" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 00.5 12a11.5 11.5 0 007.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.06-.72.08-.7.08-.7 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.4-1.28.74-1.57-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 015.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.06.78 2.15v3.19c0 .31.21.67.8.56A11.5 11.5 0 0023.5 12 11.5 11.5 0 0012 .5z"/></svg>
+            View on GitHub
+          </a>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="ai">
+        <div class="project__top">
+          <svg viewBox="0 0 24 24" class="icon project__glyph" aria-hidden="true"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="12" r="2.5"/><circle cx="6" cy="18" r="2.5"/><path d="M8.5 7.2l7 3.6"/><path d="M8.5 16.8l7-3.6"/></svg>
+          <span class="badge badge--work">Professional work</span>
+        </div>
+        <h3 class="card__title">Business Workflow Automation with n8n</h3>
+        <p class="card__body">
+          Automated business processes at Grenoble Partners by building n8n workflows that connect internal
+          services with external APIs — including Twilio for messaging and OTO for logistics — replacing manual,
+          repeated steps with scheduled and event-driven runs.
+        </p>
+        <ul class="taglist taglist--sm">
+          <li>n8n</li><li>REST APIs</li><li>Twilio</li><li>OTO</li><li>Webhooks</li>
+        </ul>
+        <div class="project__links">
+          <span class="link link--muted">Private — client work</span>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="ai">
+        <div class="project__top">
+          <svg viewBox="0 0 24 24" class="icon project__glyph" aria-hidden="true"><path d="M12 3l1.8 4.6L18.5 9l-4.7 1.4L12 15l-1.8-4.6L5.5 9l4.7-1.4L12 3z"/><path d="M6 16l.8 2 2 .8-2 .8L6 21.6l-.8-2-2-.8 2-.8L6 16z"/></svg>
+          <span class="badge badge--work">Professional work</span>
+        </div>
+        <h3 class="card__title">Agentic AI Development Workflow</h3>
+        <p class="card__body">
+          Day-to-day delivery driven by agentic AI tooling — Claude Code, Cursor and Antigravity — with prompt
+          engineering used to generate precise code, speed up deployment and support refactoring for readability
+          and maintainability across the codebase.
+        </p>
+        <ul class="taglist taglist--sm">
+          <li>Claude Code</li><li>Cursor</li><li>Antigravity</li><li>Prompt engineering</li><li>Refactoring</li>
+        </ul>
+        <div class="project__links">
+          <span class="link link--muted">Private — client work</span>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="web">
+        <div class="project__top">
+          <svg viewBox="0 0 24 24" class="icon project__glyph" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/><path d="M8 13h8"/><path d="M8 16h5"/></svg>
+          <span class="badge badge--work">Professional work</span>
+        </div>
+        <h3 class="card__title">React &amp; Material UI Interfaces</h3>
+        <p class="card__body">
+          Built frontend interfaces in React and Material UI and supported the API and backend integration behind
+          them on AWS cloud foundations, alongside SEO and indexing improvements delivered with Rank Math.
+        </p>
+        <ul class="taglist taglist--sm">
+          <li>React</li><li>Material UI</li><li>API integration</li><li>AWS</li><li>SEO</li>
+        </ul>
+        <div class="project__links">
+          <span class="link link--muted">Private — client work</span>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="projects__more reveal">
+      More repositories on
+      <a class="link link--inline" href="https://github.com/Abeer-21" target="_blank" rel="noopener">github.com/Abeer-21</a>
+    </p>
+  </div>
+</section>
+
+<!-- ============ EDUCATION + CERTS ============ -->
+<section class="section" id="education">
+  <div class="container">
+    <header class="section__head reveal">
+      <span class="section__num">05</span>
+      <h2 class="section__title">Education &amp; certifications</h2>
+    </header>
+
+    <div class="edu">
+      <div class="edu__col reveal">
+        <h3 class="edu__heading">Education</h3>
+        <article class="card">
+          <div class="tl__head">
+            <div>
+              <h4 class="tl__role">Bachelor of Software Engineering</h4>
+              <p class="tl__org">University of Jeddah</p>
+            </div>
+            <span class="badge">2024</span>
+          </div>
+          <p class="card__body">Graduated with <strong>Second Class Honors</strong>.</p>
+        </article>
+
+        <h3 class="edu__heading">Awards</h3>
+        <ul class="awards">
+          <li class="award">
+            <span class="award__icon" aria-hidden="true">★</span>
+            <div><strong>Champion of the Week</strong><span class="dim"> — Saudi Digital Academy C# Bootcamp, Sep 2024</span></div>
+          </li>
+          <li class="award">
+            <span class="award__icon" aria-hidden="true">★</span>
+            <div><strong>Best Department in Publications</strong><span class="dim"> — Software Engineering Club, Feb 2024</span></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="edu__col reveal">
+        <h3 class="edu__heading">Certifications</h3>
+        <ul class="certs">
+          <li class="cert">
+            <div class="cert__main">
+              <p class="cert__name">Claude Certified Architect — Foundations (CCA-F)</p>
+              <p class="cert__org">Anthropic</p>
+            </div>
+            <span class="badge badge--progress">In progress · 2026</span>
+          </li>
+          <li class="cert">
+            <div class="cert__main">
+              <p class="cert__name">AWS Certified Solutions Architect — Associate</p>
+              <p class="cert__org">Amazon Web Services</p>
+            </div>
+            <span class="badge badge--progress">In progress · 2026</span>
+          </li>
+          <li class="cert">
+            <div class="cert__main">
+              <p class="cert__name">AWS Certified Cloud Practitioner</p>
+              <p class="cert__org">Amazon Web Services</p>
+            </div>
+            <span class="badge badge--done">Feb 2026</span>
+          </li>
+          <li class="cert">
+            <div class="cert__main">
+              <p class="cert__name">BCS Foundation Certificate in Architecture Concepts and Domains</p>
+              <p class="cert__org">BCS</p>
+            </div>
+            <span class="badge badge--done">Mar 2025</span>
+          </li>
+          <li class="cert">
+            <div class="cert__main">
+              <p class="cert__name">Foundational C# Certification</p>
+              <p class="cert__org">Microsoft via freeCodeCamp</p>
+            </div>
+            <span class="badge badge--done">Sep 2024</span>
+          </li>
+          <li class="cert">
+            <div class="cert__main">
+              <p class="cert__name">450-hour Training in Technology and Website Development</p>
+              <p class="cert__org">Abaad Company</p>
+            </div>
+            <span class="badge badge--done">May 2024</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section section--alt" id="contact">
+  <div class="container">
+    <header class="section__head reveal">
+      <span class="section__num">06</span>
+      <h2 class="section__title">Get in touch</h2>
+      <p class="section__sub">The fastest way to reach me is by email or WhatsApp.</p>
+    </header>
+
+    <div class="contact reveal">
+      <a class="contact__card card" href="mailto:Abeer.alkhmese@gmail.com">
+        <span class="contact__icon"><svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="M3 7l9 6 9-6"/></svg></span>
+        <span class="contact__label">Email</span>
+        <span class="contact__value">Abeer.alkhmese@gmail.com</span>
+      </a>
+
+      <a class="contact__card card" href="tel:+966553406830">
+        <span class="contact__icon"><svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M6.6 3h3l1.5 4.5-2.1 1.4a12.5 12.5 0 006.1 6.1l1.4-2.1L21 14.4v3a2 2 0 01-2.2 2A17 17 0 014.6 5.2 2 2 0 016.6 3z"/></svg></span>
+        <span class="contact__label">Phone</span>
+        <span class="contact__value">0553406830</span>
+      </a>
+
+      <a class="contact__card card" href="https://www.linkedin.com/in/abeer-yehia-6a9a6a299/" target="_blank" rel="noopener">
+        <span class="contact__icon"><svg viewBox="0 0 24 24" class="icon icon--fill" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05a3.75 3.75 0 013.38-1.86c3.61 0 4.27 2.38 4.27 5.47v6.28zM5.34 7.43a2.07 2.07 0 110-4.13 2.07 2.07 0 010 4.13zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></span>
+        <span class="contact__label">LinkedIn</span>
+        <span class="contact__value">abeer-yehia</span>
+      </a>
+
+      <a class="contact__card card" href="https://github.com/Abeer-21" target="_blank" rel="noopener">
+        <span class="contact__icon"><svg viewBox="0 0 24 24" class="icon icon--fill" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 00.5 12a11.5 11.5 0 007.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.06-.72.08-.7.08-.7 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.4-1.28.74-1.57-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 015.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.06.78 2.15v3.19c0 .31.21.67.8.56A11.5 11.5 0 0023.5 12 11.5 11.5 0 0012 .5z"/></svg></span>
+        <span class="contact__label">GitHub</span>
+        <span class="contact__value">Abeer-21</span>
+      </a>
+    </div>
+
+    <div class="cta reveal">
+      <p class="cta__text">Prefer the one-page version?</p>
+      <a class="btn btn--primary" href="assets/Abeer-Alkhmese-AI-Engineer-CV.pdf" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2"/></svg>
+        Download my CV
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>© <span id="year">2026</span> Abeer Alkhmese — AI Engineer, Saudi Arabia.</p>
+    <a class="footer__top" href="#hero" aria-label="Back to top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
