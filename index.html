@@ -261,7 +261,7 @@
         <div class="tl__card card">
           <div class="tl__head">
             <div>
-              <h3 class="tl__role">Business Analyst &amp; AI Developer</h3>
+              <h3 class="tl__role">Business Analyst &amp; Developer</h3>
               <p class="tl__org">Grenoble Partners</p>
             </div>
             <span class="badge badge--live">Jan 2025 — Present</span>
@@ -284,7 +284,7 @@
         <div class="tl__card card">
           <div class="tl__head">
             <div>
-              <h3 class="tl__role">Software Developer (Trainee)</h3>
+              <h3 class="tl__role">Software Developer</h3>
               <p class="tl__org">Saudi Digital Academy — C# Bootcamp</p>
             </div>
             <span class="badge">Aug 2024 — Nov 2024</span>
@@ -305,12 +305,13 @@
         <div class="tl__card card">
           <div class="tl__head">
             <div>
-              <h3 class="tl__role">Web Developer — 450-hour Training</h3>
+              <h3 class="tl__role">Web Developer</h3>
               <p class="tl__org">Abaad Platform</p>
             </div>
             <span class="badge">Dec 2023 — May 2024</span>
           </div>
           <ul class="bullets">
+            <li>Completed a 450-hour training program in technology and website development.</li>
             <li>Built dynamic React components, managed routing, and designed UIs using Figma and Material UI.</li>
             <li>Optimized React components for performance; collaborated in team projects using Git branching and code integration.</li>
           </ul>
@@ -345,34 +346,32 @@
     <header class="section__head reveal">
       <span class="section__num">04</span>
       <h2 class="section__title">Projects</h2>
-      <p class="section__sub">Selected work — open-source repositories on GitHub plus professional projects delivered at work.</p>
+      <p class="section__sub">Open-source projects, with the code available on GitHub.</p>
     </header>
 
     <div class="filters reveal" role="group" aria-label="Filter projects">
       <button class="filter is-active" data-filter="all">All</button>
-      <button class="filter" data-filter="ai">AI &amp; Automation</button>
       <button class="filter" data-filter="web">Web</button>
       <button class="filter" data-filter="csharp">C# / .NET</button>
     </div>
 
     <div class="grid grid--3" id="projectGrid">
-
-      <article class="card project reveal" data-cat="web">
+      <article class="card project reveal" data-cat="csharp">
         <div class="project__top">
-          <svg viewBox="0 0 24 24" class="icon project__glyph" aria-hidden="true"><path d="M3 10.5L12 4l9 6.5V20a1 1 0 01-1 1h-5v-6H10v6H4a1 1 0 01-1-1v-9.5z"/></svg>
-          <span class="badge badge--soft">Graduation Project</span>
+          <svg viewBox="0 0 24 24" class="icon project__glyph" aria-hidden="true"><path d="M4 5.5A1.5 1.5 0 015.5 4H11v16H5.5A1.5 1.5 0 014 18.5v-13z"/><path d="M20 5.5A1.5 1.5 0 0018.5 4H13v16h5.5a1.5 1.5 0 001.5-1.5v-13z"/></svg>
+          <span class="badge badge--soft">C# · LINQ</span>
         </div>
-        <h3 class="card__title">Emmar</h3>
+        <h3 class="card__title">Library Management System</h3>
         <p class="card__body">
-          My university graduation project — a React web platform with a client-facing area and an authenticated
-          dashboard. Built with Firebase for authentication and data, Material UI for the interface, Formik and
-          Yup for validated multi-field forms, and React Router for protected client-side routing.
+          A library system in C# that manages books, members and borrowing records. Data is modelled with
+          <em>records</em> as immutable types, stored in lists, and queried with <em>LINQ</em> — searching books by
+          title, author or genre, finding members by name, and filtering borrow records by member or date.
         </p>
         <ul class="taglist taglist--sm">
-          <li>React</li><li>Firebase</li><li>Material UI</li><li>Formik + Yup</li><li>React Router</li>
+          <li>C#</li><li>LINQ</li><li>Records</li><li>Collections</li>
         </ul>
         <div class="project__links">
-          <a class="link" href="https://github.com/Abeer-21/Emmar" target="_blank" rel="noopener">
+          <a class="link" href="https://github.com/Abeer-21/contact-management-system" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" class="icon icon--fill icon--xs" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 00.5 12a11.5 11.5 0 007.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.06-.72.08-.7.08-.7 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.4-1.28.74-1.57-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 015.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.06.78 2.15v3.19c0 .31.21.67.8.56A11.5 11.5 0 0023.5 12 11.5 11.5 0 0012 .5z"/></svg>
             View on GitHub
           </a>
@@ -446,84 +445,27 @@
         </div>
       </article>
 
-      <article class="card project reveal" data-cat="csharp">
+      <article class="card project reveal" data-cat="web">
         <div class="project__top">
-          <svg viewBox="0 0 24 24" class="icon project__glyph" aria-hidden="true"><path d="M4 5.5A1.5 1.5 0 015.5 4H11v16H5.5A1.5 1.5 0 014 18.5v-13z"/><path d="M20 5.5A1.5 1.5 0 0018.5 4H13v16h5.5a1.5 1.5 0 001.5-1.5v-13z"/></svg>
-          <span class="badge badge--soft">C# · LINQ</span>
+          <svg viewBox="0 0 24 24" class="icon project__glyph" aria-hidden="true"><path d="M3 10.5L12 4l9 6.5V20a1 1 0 01-1 1h-5v-6H10v6H4a1 1 0 01-1-1v-9.5z"/></svg>
+          <span class="badge badge--soft">Graduation Project</span>
         </div>
-        <h3 class="card__title">Library Management System</h3>
+        <h3 class="card__title">Emmar</h3>
         <p class="card__body">
-          A library system in C# that manages books, members and borrowing records. Data is modelled with
-          <em>records</em> as immutable types, stored in lists, and queried with <em>LINQ</em> — searching books by
-          title, author or genre, finding members by name, and filtering borrow records by member or date.
+          My university graduation project — a React web platform with a client-facing area and an authenticated
+          dashboard. Built with Firebase for authentication and data, Material UI for the interface, Formik and
+          Yup for validated multi-field forms, and React Router for protected client-side routing.
         </p>
         <ul class="taglist taglist--sm">
-          <li>C#</li><li>LINQ</li><li>Records</li><li>Collections</li>
+          <li>React</li><li>Firebase</li><li>Material UI</li><li>Formik + Yup</li><li>React Router</li>
         </ul>
         <div class="project__links">
-          <a class="link" href="https://github.com/Abeer-21/contact-management-system" target="_blank" rel="noopener">
+          <a class="link" href="https://github.com/Abeer-21/Emmar" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" class="icon icon--fill icon--xs" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 00.5 12a11.5 11.5 0 007.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.06-.72.08-.7.08-.7 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.4-1.28.74-1.57-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 015.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.06.78 2.15v3.19c0 .31.21.67.8.56A11.5 11.5 0 0023.5 12 11.5 11.5 0 0012 .5z"/></svg>
             View on GitHub
           </a>
         </div>
       </article>
-
-      <article class="card project reveal" data-cat="ai">
-        <div class="project__top">
-          <svg viewBox="0 0 24 24" class="icon project__glyph" aria-hidden="true"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="12" r="2.5"/><circle cx="6" cy="18" r="2.5"/><path d="M8.5 7.2l7 3.6"/><path d="M8.5 16.8l7-3.6"/></svg>
-          <span class="badge badge--work">Professional work</span>
-        </div>
-        <h3 class="card__title">Business Workflow Automation with n8n</h3>
-        <p class="card__body">
-          Automated business processes at Grenoble Partners by building n8n workflows that connect internal
-          services with external APIs — including Twilio for messaging and OTO for logistics — replacing manual,
-          repeated steps with scheduled and event-driven runs.
-        </p>
-        <ul class="taglist taglist--sm">
-          <li>n8n</li><li>REST APIs</li><li>Twilio</li><li>OTO</li><li>Webhooks</li>
-        </ul>
-        <div class="project__links">
-          <span class="link link--muted">Private — client work</span>
-        </div>
-      </article>
-
-      <article class="card project reveal" data-cat="ai">
-        <div class="project__top">
-          <svg viewBox="0 0 24 24" class="icon project__glyph" aria-hidden="true"><path d="M12 3l1.8 4.6L18.5 9l-4.7 1.4L12 15l-1.8-4.6L5.5 9l4.7-1.4L12 3z"/><path d="M6 16l.8 2 2 .8-2 .8L6 21.6l-.8-2-2-.8 2-.8L6 16z"/></svg>
-          <span class="badge badge--work">Professional work</span>
-        </div>
-        <h3 class="card__title">Agentic AI Development Workflow</h3>
-        <p class="card__body">
-          Day-to-day delivery driven by agentic AI tooling — Claude Code, Cursor and Antigravity — with prompt
-          engineering used to generate precise code, speed up deployment and support refactoring for readability
-          and maintainability across the codebase.
-        </p>
-        <ul class="taglist taglist--sm">
-          <li>Claude Code</li><li>Cursor</li><li>Antigravity</li><li>Prompt engineering</li><li>Refactoring</li>
-        </ul>
-        <div class="project__links">
-          <span class="link link--muted">Private — client work</span>
-        </div>
-      </article>
-
-      <article class="card project reveal" data-cat="web">
-        <div class="project__top">
-          <svg viewBox="0 0 24 24" class="icon project__glyph" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/><path d="M8 13h8"/><path d="M8 16h5"/></svg>
-          <span class="badge badge--work">Professional work</span>
-        </div>
-        <h3 class="card__title">React &amp; Material UI Interfaces</h3>
-        <p class="card__body">
-          Built frontend interfaces in React and Material UI and supported the API and backend integration behind
-          them on AWS cloud foundations, alongside SEO and indexing improvements delivered with Rank Math.
-        </p>
-        <ul class="taglist taglist--sm">
-          <li>React</li><li>Material UI</li><li>API integration</li><li>AWS</li><li>SEO</li>
-        </ul>
-        <div class="project__links">
-          <span class="link link--muted">Private — client work</span>
-        </div>
-      </article>
-
     </div>
 
     <p class="projects__more reveal">

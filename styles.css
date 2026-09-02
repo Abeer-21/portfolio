@@ -613,7 +613,6 @@ a:hover { color: var(--mauve-magic); }
 }
 .badge--live { color: #fff; background: linear-gradient(135deg, var(--royal-violet), var(--lavender-purple)); border-color: transparent; }
 .badge--soft { color: var(--mauve); background: rgba(123, 44, 191, 0.3); }
-.badge--work { color: var(--mauve-magic); background: rgba(90, 24, 154, 0.45); border-color: var(--border-str); }
 .badge--done { color: var(--mauve); }
 .badge--progress { color: var(--mauve-magic); border-color: var(--border-str); border-style: dashed; }
 
